@@ -1,0 +1,84 @@
+{
+  "n_perm": 10000,
+  "seed": 42,
+  "tests": [
+    {
+      "name": "CD4 ** all",
+      "n": 1009,
+      "concordant": 982,
+      "concordant_frac": 0.9732408325074331,
+      "null_mean": 0.4997933597621408,
+      "null_p95": 0.910802775024777,
+      "perm_p": 0.0006999300069993001,
+      "rank_rho": 0.8592185464079928,
+      "rho_perm_p": 0.008899110088991101,
+      "naive_binomial_p": 1.5433969520431852e-251,
+      "primary": true
+    },
+    {
+      "name": "CD4 ** IFN-near",
+      "n": 62,
+      "concordant": 59,
+      "concordant_frac": 0.9516129032258065,
+      "null_mean": 0.49627741935483866,
+      "null_p95": 0.967741935483871,
+      "perm_p": 0.0897910208979102,
+      "rank_rho": 0.8382312205686082,
+      "rho_perm_p": 0.0057994200579942,
+      "naive_binomial_p": 8.62461144168769e-15,
+      "primary": false
+    },
+    {
+      "name": "CD4 ** non-IFN",
+      "n": 947,
+      "concordant": 923,
+      "concordant_frac": 0.9746568109820486,
+      "null_mean": 0.5000235480464624,
+      "null_p95": 0.9134107708553326,
+      "perm_p": 0.0004999500049995,
+      "rank_rho": 0.8448404385443541,
+      "rho_perm_p": 0.0117988201179882,
+      "naive_binomial_p": 2.8058883785510126e-238,
+      "primary": false
+    },
+    {
+      "name": "CD4 ** all, excluding our stable-set CpGs",
+      "n": 918,
+      "concordant": 891,
+      "concordant_frac": 0.9705882352941176,
+      "null_mean": 0.5002082788671024,
+      "null_p95": 0.9074074074074074,
+      "perm_p": 0.0006999300069993001,
+      "rank_rho": 0.841838255811153,
+      "rho_perm_p": 0.011998800119988001,
+      "naive_binomial_p": 2.883308933991353e-225,
+      "primary": false
+    },
+    {
+      "name": "CD4 ** non-IFN, excluding our stable set",
+      "n": 888,
+      "concordant": 864,
+      "concordant_frac": 0.972972972972973,
+      "null_mean": 0.5002957207207208,
+      "null_p95": 0.9099099099099099,
+      "perm_p": 0.0004999500049995,
+      "rank_rho": 0.835036205078488,
+      "rho_perm_p": 0.015298470152984701,
+      "naive_binomial_p": 3.393002863984878e-221,
+      "primary": false
+    },
+    {
+      "name": "CD19 ** all (secondary)",
+      "n": 162,
+      "concordant": 146,
+      "concordant_frac": 0.9012345679012346,
+      "null_mean": 0.4970006172839507,
+      "null_p95": 0.845679012345679,
+      "perm_p": 0.004999500049995001,
+      "rank_rho": 0.7390868374514398,
+      "rho_perm_p": 0.031196880311968805,
+      "naive_binomial_p": 9.5915878742237e-28,
+      "primary": false
+    }
+  ]
+}

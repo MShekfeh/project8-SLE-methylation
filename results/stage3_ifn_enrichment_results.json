@@ -1,0 +1,148 @@
+{
+  "hypo_in_SLE": {
+    "n_probes": 116,
+    "context": {
+      "promoter": 91,
+      "other_gene": 21,
+      "no_gene": 4
+    },
+    "observed_distinct_genes": 25,
+    "observed_probes_in_IFN_genes": 63,
+    "covered_genes": [
+      "BST2",
+      "CMPK2",
+      "DDX60",
+      "EIF2AK2",
+      "EPSTI1",
+      "HELZ2",
+      "IFI27",
+      "IFI44",
+      "IFI44L",
+      "IFIT3",
+      "IFITM1",
+      "IFITM3",
+      "IRF7",
+      "LGALS3BP",
+      "LY6E",
+      "MX1",
+      "OAS1",
+      "PARP12",
+      "PARP14",
+      "PARP9",
+      "PLSCR1",
+      "RSAD2",
+      "TRIM25",
+      "TRIM5",
+      "USP18"
+    ],
+    "primary": true,
+    "matched": {
+      "null_mean_genes": 0.6293,
+      "null_p95_genes": 2.0,
+      "fold_enrichment_genes": 39.726680438582555,
+      "p_distinct_genes": 9.999000099990002e-05,
+      "null_mean_probes": 0.568,
+      "p_probe_count": 9.999000099990002e-05
+    },
+    "unmatched": {
+      "null_mean_genes": 0.5246,
+      "null_p95_genes": 2.0,
+      "fold_enrichment_genes": 47.655356462066344,
+      "p_distinct_genes": 9.999000099990002e-05,
+      "null_mean_probes": 0.4784,
+      "p_probe_count": 9.999000099990002e-05
+    }
+  },
+  "hyper_in_SLE": {
+    "n_probes": 344,
+    "context": {
+      "promoter": 152,
+      "other_gene": 162,
+      "no_gene": 30
+    },
+    "observed_distinct_genes": 6,
+    "observed_probes_in_IFN_genes": 9,
+    "covered_genes": [
+      "CNP",
+      "CSF1",
+      "EPSTI1",
+      "HELZ2",
+      "LGALS3BP",
+      "TRIM14"
+    ],
+    "primary": true,
+    "matched": {
+      "null_mean_genes": 1.4607,
+      "null_p95_genes": 4.0,
+      "fold_enrichment_genes": 4.1076196344218525,
+      "p_distinct_genes": 0.006299370062993701,
+      "null_mean_probes": 1.3774,
+      "p_probe_count": 9.999000099990002e-05
+    },
+    "unmatched": {
+      "null_mean_genes": 1.546,
+      "null_p95_genes": 4.0,
+      "fold_enrichment_genes": 3.8809831824062093,
+      "p_distinct_genes": 0.0093990600939906,
+      "null_mean_probes": 1.4273,
+      "p_probe_count": 9.999000099990002e-05
+    }
+  },
+  "all_460": {
+    "n_probes": 460,
+    "context": {
+      "promoter": 243,
+      "other_gene": 183,
+      "no_gene": 34
+    },
+    "observed_distinct_genes": 28,
+    "observed_probes_in_IFN_genes": 72,
+    "covered_genes": [
+      "BST2",
+      "CMPK2",
+      "CNP",
+      "CSF1",
+      "DDX60",
+      "EIF2AK2",
+      "EPSTI1",
+      "HELZ2",
+      "IFI27",
+      "IFI44",
+      "IFI44L",
+      "IFIT3",
+      "IFITM1",
+      "IFITM3",
+      "IRF7",
+      "LGALS3BP",
+      "LY6E",
+      "MX1",
+      "OAS1",
+      "PARP12",
+      "PARP14",
+      "PARP9",
+      "PLSCR1",
+      "RSAD2",
+      "TRIM14",
+      "TRIM25",
+      "TRIM5",
+      "USP18"
+    ],
+    "primary": false,
+    "matched": {
+      "null_mean_genes": 2.0377,
+      "null_p95_genes": 5.0,
+      "fold_enrichment_genes": 13.740982480247338,
+      "p_distinct_genes": 9.999000099990002e-05,
+      "null_mean_probes": 1.9149,
+      "p_probe_count": 9.999000099990002e-05
+    },
+    "unmatched": {
+      "null_mean_genes": 2.0078,
+      "null_p95_genes": 5.0,
+      "fold_enrichment_genes": 13.945612112760235,
+      "p_distinct_genes": 9.999000099990002e-05,
+      "null_mean_probes": 1.8754,
+      "p_probe_count": 9.999000099990002e-05
+    }
+  }
+}

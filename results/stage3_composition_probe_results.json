@@ -1,0 +1,74 @@
+{
+  "our hypo stable": {
+    "n": 116,
+    "context": {
+      "promoter": 91,
+      "other_gene": 21,
+      "no_gene": 4
+    },
+    "median": 0.510408618,
+    "frac_intermediate": 0.6810344827586207,
+    "frac_intermediate_30_70": 0.46551724137931033,
+    "matched_null_mean": 0.30009137931034485,
+    "matched_null_95": [
+      0.21551724137931033,
+      0.3879310344827586
+    ]
+  },
+  "our hyper stable": {
+    "n": 344,
+    "context": {
+      "promoter": 152,
+      "other_gene": 162,
+      "no_gene": 30
+    },
+    "median": 0.7121948919999999,
+    "frac_intermediate": 0.7732558139534884,
+    "frac_intermediate_30_70": 0.4011627906976744,
+    "matched_null_mean": 0.3302305232558139,
+    "matched_null_95": [
+      0.2819767441860465,
+      0.3808139534883721
+    ]
+  },
+  "Absher T-cell non-IFN": {
+    "n": 947,
+    "context": {
+      "promoter": 488,
+      "other_gene": 349,
+      "no_gene": 110
+    },
+    "median": 0.519551272,
+    "frac_intermediate": 0.8247096092925026,
+    "frac_intermediate_30_70": 0.5617740232312566,
+    "matched_null_mean": 0.32703769799366417,
+    "matched_null_95": [
+      0.29778247096092925,
+      0.35691657866948256
+    ]
+  },
+  "Absher T-cell IFN": {
+    "n": 62,
+    "context": {
+      "promoter": 58,
+      "other_gene": 4,
+      "no_gene": 0
+    },
+    "median": 0.498841206,
+    "frac_intermediate": 0.6290322580645161,
+    "frac_intermediate_30_70": 0.41935483870967744,
+    "matched_null_mean": 0.28730645161290325,
+    "matched_null_95": [
+      0.1774193548387097,
+      0.4032258064516129
+    ]
+  },
+  "contrast_hyper_vs_hypo": {
+    "difference": 0.09222133119486775,
+    "p_two_sided": 0.06519348065193481
+  },
+  "contrast_absher_nonIFN_vs_IFN": {
+    "difference": 0.19567735122798646,
+    "p_two_sided": 0.0007999200079992001
+  }
+}

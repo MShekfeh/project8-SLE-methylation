@@ -1,0 +1,17 @@
+# Large data (download instructions are in the README)
+data/
+*.parquet
+*.pt
+*.gz
+*.npz
+# Windows/WSL download artifacts
+*:Zone.Identifier
+*.Zone.Identifier
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+# OS
+.DS_Store
